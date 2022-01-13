@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>TEST PUSH AND COMMIT ON GIT</h1>
+      <h1>TEST PUSH AND COMMIT ON GITHUB</h1>
     </div>
   );
 }
