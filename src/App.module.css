@@ -1,20 +1,32 @@
+body {
+    font-family: 'Lora', serif;
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+li {
+    list-style: none;
+    margin-bottom: 10px;
+
+}
 
 .appWrapper {
+    background-image: url(/bg3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     background-color: #b8b7b3;
-    padding: 15px;
-
+    padding: 45px 15px 45px 15px;
 
 }
 
 .resumeBlock {
     box-shadow: -11px 11px 18px 0px rgba(34, 60, 80, 0.29);
-    width: 1200px;
-    margin: 0 auto;
+    max-width: 1050px;
+    min-width: 700px;
+    margin: auto;
     background-color: #dadada;
     grid-template-areas:
 "header header"
@@ -25,23 +37,21 @@
 }
 
 .leftSide {
-    padding: 0 20px;
-    background-color: #dadada;
-    height: 100px;
+    padding: 0 40px;
+    background-color: #9DD1F1;
     grid-area: left;
 
 }
 
 .rightSide {
     padding: 0 20px;
-
     background-color: white;
     grid-area: right;
 
 }
 
 .header {
-
+    background-color: #9DD1F1;
     grid-template-areas:
 "p a"
 "h h";
@@ -61,8 +71,11 @@
 }
 
 h1 {
-    background-color: #4c4c4c;
+    background-color: #031927;
     grid-area: h;
+    color: white;
+    font-size: 40px;
+    padding-left: 40px;
 
 }
 
@@ -70,4 +83,35 @@ h1 {
     grid-area: a;
     text-align: center;
     max-height: 220px;
+}
+.myContacts li,
+.mySkills li{
+    list-style: none;
+}
+.myContacts span {
+    font-weight: bold;
+}
+.mySkills li {
+    font-weight: bold;
+}
+.mySkills li p {
+    margin-left: 10px;
+    font-style: italic;
+    font-weight: normal;
+}
+h2{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.languages li
+{
+    font-weight: bold;
+
+}
+hr{
+    margin-bottom: 5px;
+    height: 3px;
+    color:black;
+    background-color: black;
 }

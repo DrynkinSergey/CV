@@ -10,7 +10,6 @@ const App = () => {
         <div className={styles.appWrapper}>
             <div className={styles.resumeBlock}>
                 <Header/>
-
                 <LeftSideCv/>
                 <RightSideCV/>
             </div>
