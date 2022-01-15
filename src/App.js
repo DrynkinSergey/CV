@@ -1,12 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import styles from  './App.module.css';
+import Header from "./components/header";
+import LeftSideCv from "./components/leftSideCV";
+import RightSideCV from "./components/rightSideCV";
 
-function App() {
-  return (
-    <div className="App">
-      <h1>TEST PUSH AND COMMIT ON GITHUB</h1>
-    </div>
-  );
+
+const App = () => {
+    return (
+        <div className={styles.appWrapper}>
+            <div className={styles.resumeBlock}>
+                <Header/>
+
+                <LeftSideCv/>
+                <RightSideCV/>
+            </div>
+        </div>
+    )
 }
 
 export default App;

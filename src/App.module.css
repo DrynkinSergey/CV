@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.appWrapper {
+    background-color: #b8b7b3;
+    padding: 15px;
+
+
+}
+
+.resumeBlock {
+    box-shadow: -11px 11px 18px 0px rgba(34, 60, 80, 0.29);
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #dadada;
+    grid-template-areas:
+"header header"
+"left right";
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+.leftSide {
+    padding: 0 20px;
+    background-color: #dadada;
+    height: 100px;
+    grid-area: left;
+
+}
+
+.rightSide {
+    padding: 0 20px;
+
+    background-color: white;
+    grid-area: right;
+
+}
+
+.header {
+
+    grid-template-areas:
+"p a"
+"h h";
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.myPhoto {
+    grid-area: p;
+
+}
+
+.myPhotoImg {
+    width: 400px;
+    height: auto;
+}
+
+h1 {
+    background-color: #4c4c4c;
+    grid-area: h;
+
+}
+
+.aboutMe {
+    grid-area: a;
+    text-align: center;
+    max-height: 220px;
+}
