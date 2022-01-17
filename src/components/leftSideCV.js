@@ -1,12 +1,12 @@
 import React from 'react';
-import styles from "../App.module.css";
+import   "../app.scss.css";
 
 const LeftSideCv = () => (
-    <div className={styles.leftSide}>
+    <div className={"leftSide"}>
         <h2>Contacts</h2>
         <hr/>
 
-        <div className={styles.myContacts}>
+        <div className={"myContacts"}>
             <ul>
                 <li><span>Location:</span>
                 <p>Chernomorsk, Odessa, Ukraine</p></li>
@@ -17,14 +17,14 @@ const LeftSideCv = () => (
                 <li><span>GitHub:</span>
                     <p>https://github.com/DrynkinSergey</p></li>
                 <li><span>LinkedIn:</span>
-                    <p>https://www.linkedin.com/in/sergey-drynkin-7270b422a/</p></li>
+                    <p>www.linkedin.com/in/DrynkinSergey</p></li>
                 <li><span>Telegram:</span>
                     <p>@DrynkinSergey</p></li>
             </ul>
         </div>
         <h2>MySkills</h2>
         <hr/>
-        <div className={styles.mySkills}>
+        <div className={"mySkills"}>
             <ul>
                 <li>React</li>
                 <li>Redux</li>
@@ -40,7 +40,7 @@ const LeftSideCv = () => (
         </div>
         <h2>Languages</h2>
         <hr/>
-        <div className={styles.languages}>
+        <div className={"languages"}>
             <ul>
                 <li>English - Pre Intermediate</li>
                 <li>Russian - Native speaker</li>
