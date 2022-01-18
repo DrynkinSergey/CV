@@ -12,7 +12,6 @@ body {
     box-sizing: border-box;
 }
 li {
-    list-style: none;
     margin-bottom: 10px;
 }
 
@@ -23,7 +22,7 @@ li {
 }
 
 .resumeBlock {
-    box-shadow: -11px 11px 18px 0px rgba(34, 60, 80, 0.29);
+    box-shadow: -11px 11px 18px 0 rgba(34, 60, 80, 0.29);
     max-width: 1050px;
     min-width: 700px;
     margin: auto;
@@ -64,12 +63,14 @@ li {
 
 .myPhoto {
     grid-area: p;
+    max-width: 365px;
 
 }
 
 .myPhotoImg {
-    width: 400px;
+    max-width: 365px;
     height: auto;
+
 }
 
 h1 {
@@ -86,8 +87,15 @@ h1 {
     text-align: center;
     max-height: 220px;
 }
-.myContacts li,
-.mySkills li{
+.aboutMe h2 {
+    font-size: 48px;
+}
+.aboutMe p {
+    padding: 0 15px;
+    font-style: italic;
+    font-size: 20px;
+}
+.myContacts li{
     list-style: none;
 }
 .myContacts span {

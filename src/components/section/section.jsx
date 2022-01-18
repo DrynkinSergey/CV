@@ -6,7 +6,6 @@ const Section = (props) => {
             <p className={styles.title}>{props.title}</p>
             <p className={styles.sectionDescription}>{props.description}</p>
             <a href={props.link} className={styles.sectionLink}>{props.link}</a>
-
         </div>
 
     );
