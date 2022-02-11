@@ -12,6 +12,17 @@ const projectsData = [{
         description: 'I created todo by learning  ReactJs ',
         link: ''
     }]
+const courses = [{
+    title:'JavaScript + React',
+    description: 'I learn React and JavaScript, take more practice',
+    link: 'https://www.udemy.com/course/javascript_full/'
+},
+    {
+        title:'React + Redux - Professional development',
+        description: 'Learn React + Redux',
+        link: 'https://www.udemy.com/course/pro-react-redux/'
+    }
+]
 const myStudyInfo = "I studied at the  Alchevsk ITDonSTU with a degree in software development from 2012 to 2016, and now I'm learning programming myself ";
 
 const RightSideCV = () => (
@@ -23,7 +34,9 @@ const RightSideCV = () => (
             {projectsData.map((item,index) => <Section key={index} title={item.title} link={item.link}  description={item.description}/>)}
 
             <h2>My education</h2>
-            <Section description={myStudyInfo}/>
+            <p className='study'>{myStudyInfo}</p>
+            <h2>My learning courses</h2>
+            {courses.map((item,index) => <Section key={index} title={item.title} link={item.link}  description={item.description}/>)}
 
         </div>
 

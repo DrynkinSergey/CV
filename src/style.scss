@@ -51,9 +51,19 @@ li {
 
     h2{
       font-style: italic;
-
     }
     font-size: 1rem;
+  }
+  .study{
+    margin: 20px 0;
+  }
+  .section__item{
+    p:nth-child(1){
+
+      font-size: 1.1rem;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
   }
 
 }
@@ -64,6 +74,12 @@ header{
   background-color: #9DD1F1;
   text-align: center;
   height: 200px;
+  .aboutMe{
+    h1{
+
+    }
+  }
+
 }
 hr{
   margin-bottom: 5px;
@@ -71,6 +87,29 @@ hr{
   color:black;
   background-color: black;
 }
+.section__item{
+  margin-bottom: 20px;
+}
 
 
+.typing{
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 auto;
+}
 
+.animate{
+  animation: typewriter 1.5s steps(28) 1s 1 normal both,
+  blinkTextCursor 1s steps(44)  normal;
+}
+.delay {
+  animation-delay: 2s;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 100%;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(0, 0, 0, 0.75);}
+  to{border-right-color:  #9DD1F1;}
+}
