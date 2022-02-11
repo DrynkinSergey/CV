@@ -1,5 +1,5 @@
 import React from 'react';
-import "../app.scss.css";
+import Header from "./header";
 import Section from "./section/section";
 
 const projectsData = [{
@@ -16,14 +16,13 @@ const myStudyInfo = "I studied at the  Alchevsk ITDonSTU with a degree in softwa
 
 const RightSideCV = () => (
     <div className={'rightSide'}>
+        <Header/>
         <h2>My projects</h2>
 
         {projectsData.map((item,index) => <Section key={index} title={item.title} link={item.link}  description={item.description}/>)}
 
         <h2>My education</h2>
-        <Section
-                 description={myStudyInfo}
-        />
+        <Section description={myStudyInfo}/>
 
     </div>
 );

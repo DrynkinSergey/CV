@@ -1,0 +1,56 @@
+body {
+  font-family: 'Lora', serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  margin-bottom: 10px;
+}
+
+.appWrapper {
+  padding: 45px 15px 45px 15px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+
+.resumeBlock {
+  display: flex;
+}
+.leftSide{
+  width: 350px;
+  background-color: #9DD1F1;
+  padding: 0 40px;
+  .myPhoto{
+    border-radius: 40%;
+    border: 3px solid white;
+    background-color: red;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    img{
+      width: 100%;
+    position: center;
+      transform: translateY(-50px);
+    }
+  }
+
+}
+.rightSide{
+  width: calc(100% - 350px);
+}
+.myContacts{
+}
+
+header{
+  background-color: #9DD1F1;
+  text-align: center;
+}
