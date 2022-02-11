@@ -17,12 +17,15 @@ const myStudyInfo = "I studied at the  Alchevsk ITDonSTU with a degree in softwa
 const RightSideCV = () => (
     <div className={'rightSide'}>
         <Header/>
-        <h2>My projects</h2>
+        <div className='rightSide-content'>
+            <h2>My projects</h2>
 
-        {projectsData.map((item,index) => <Section key={index} title={item.title} link={item.link}  description={item.description}/>)}
+            {projectsData.map((item,index) => <Section key={index} title={item.title} link={item.link}  description={item.description}/>)}
 
-        <h2>My education</h2>
-        <Section description={myStudyInfo}/>
+            <h2>My education</h2>
+            <Section description={myStudyInfo}/>
+
+        </div>
 
     </div>
 );

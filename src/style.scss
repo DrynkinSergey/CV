@@ -1,9 +1,4 @@
-body {
-  font-family: 'Lora', serif;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
+body {font-family: 'Redressed', cursive;
 }
 * {
   margin: 0;
@@ -14,15 +9,18 @@ li {
   margin-bottom: 10px;
 }
 
+
 .appWrapper {
   padding: 45px 15px 45px 15px;
-  max-width: 80%;
+  max-width: 60%;
   margin: 0 auto;
 }
 
 
 .resumeBlock {
   display: flex;
+  box-shadow: -11px 11px 18px 0 rgba(34, 60, 80, 0.29);
+
 }
 .leftSide{
   width: 350px;
@@ -46,6 +44,18 @@ li {
 }
 .rightSide{
   width: calc(100% - 350px);
+  background-color: white;
+
+  &-content{
+    padding: 0 15px;
+
+    h2{
+      font-style: italic;
+
+    }
+    font-size: 1rem;
+  }
+
 }
 .myContacts{
 }
@@ -53,4 +63,14 @@ li {
 header{
   background-color: #9DD1F1;
   text-align: center;
+  height: 200px;
 }
+hr{
+  margin-bottom: 5px;
+  height: 3px;
+  color:black;
+  background-color: black;
+}
+
+
+
