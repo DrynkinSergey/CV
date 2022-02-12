@@ -3,10 +3,11 @@ import LeftSideCv from "./components/leftSideCV";
 import RightSideCV from "./components/rightSideCV";
 import  './css/animationBg.scss'
 import  './style.scss';
-
 const App = () => {
+
     return (
         <div className="appWrapper">
+
             <div className="resumeBlock">
                 <LeftSideCv/>
                 <RightSideCV/>

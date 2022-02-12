@@ -29,13 +29,13 @@ const RightSideCV = () => (
     <div className={'rightSide'}>
         <Header/>
         <div className='rightSide-content'>
-            <h2>My projects</h2>
+            <h2 className='slide'>My projects</h2>
 
             {projectsData.map((item,index) => <Section key={index} title={item.title} link={item.link}  description={item.description}/>)}
 
-            <h2>My education</h2>
-            <p className='study'>{myStudyInfo}</p>
-            <h2>My learning courses</h2>
+            <h2 className='slide'>My education</h2>
+            <p className='study appearInLine'>{myStudyInfo}</p>
+            <h2 className='slide'>My learning courses</h2>
             {courses.map((item,index) => <Section key={index} title={item.title} link={item.link}  description={item.description}/>)}
 
         </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import img from "../img/me.jpg";
 
 const LeftSideCv = () => (
-    <div className={"leftSide"}>
+    <div className={"leftSide "}>
         <div className="myPhoto">
             <img className="myPhotoImg"
                  src={img}
