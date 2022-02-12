@@ -3,6 +3,7 @@ import LeftSideCv from "./components/leftSideCV";
 import RightSideCV from "./components/rightSideCV";
 import  './css/animationBg.scss'
 import  './style.scss';
+import  './css/media.scss'
 const App = () => {
 
     return (

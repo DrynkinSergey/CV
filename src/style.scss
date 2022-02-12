@@ -52,6 +52,8 @@ li {
 
     h2{
       font-style: italic;
+      text-align: center;
+      text-decoration: underline;
     }
     font-size: 1rem;
   }
@@ -75,7 +77,6 @@ li {
 header{
   background-color: #9DD1F1;
   text-align: center;
-  height: 200px;
   .aboutMe{
     overflow: hidden;
   }

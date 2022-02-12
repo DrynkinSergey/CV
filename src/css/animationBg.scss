@@ -2,17 +2,18 @@
 .area{
   background: #cfd9f0;
   width: 100%;
-  height:100vh;
+  height:900px;
 
 
 }
 
 .circles{
+  z-index: -1;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 140vh;
+  height: 1160px;
   overflow: hidden;
 
 }
@@ -109,7 +110,7 @@
 @keyframes animate {
 
   0%{
-    transform: translateY(-1500px) rotate(0deg);
+    transform: translateY(-3000px) rotate(0deg);
     opacity: 1;
     border-radius: 0;
   }
