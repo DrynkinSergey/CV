@@ -1,0 +1,51 @@
+//var
+
+body{
+  background: black;
+  padding: 0 15px;
+}
+.container{
+  max-width: 1000px;
+}
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.appWrapper{
+  max-width: 1170px;
+  margin: 0 auto;
+  background: white;
+  position: relative;
+}
+
+header{
+  padding-left: 20px;
+  .photo{
+    margin-left: 20px;
+    background:red !important;
+    min-width: 320px;
+    .img{
+      width: 250px;
+
+    }
+  }
+  .me{
+  }
+  color: red;
+  background: black;
+  h1,h2{
+  text-align:center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    span{
+      color:white;
+    }
+  }
+  h1{
+    font-size: 4rem;
+  }
+  h2{
+    font-size: 2.5rem;
+    margin: 0;
+  }
+}
