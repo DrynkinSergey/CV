@@ -56,10 +56,13 @@ const Projects = (props) => (
             </div>
         </div>
         <h2>Hobbies</h2>
-        <img src={hobbi1} alt=""/>
-        <img src={hobbi2} alt=""/>
-        <img src={hobbi3} alt=""/>
-        <img src={hobbi4} alt=""/>
+       <section className='hobbies'>
+
+           <img src={hobbi1} alt=""/>
+           <img src={hobbi2} alt=""/>
+           <img src={hobbi3} alt=""/>
+           <img src={hobbi4} alt=""/>
+       </section>
     </section>
 );
 
