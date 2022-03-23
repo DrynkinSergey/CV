@@ -4,38 +4,37 @@ import './about.scss'
 const About = (props) => (
     <section className='about'>
         <h2>What's Up!</h2>
-        <p>Hello i'm ReactJs developer! I'm want to work on job at my dream and now i selfstudy for that.
+        <p className='intro'>Hello i'm ReactJs developer! I'm want to work on job at my dream and now i selfstudy for that.
             I use ReactJS, Redux, JavaScript, SCSS in my projects</p>
         <ul>
-            <label htmlFor="ul">INFO</label>
+            <h3>INFO</h3>
             <hr/>
-            <li>Phone
-                +38093 122 50 96</li>
-            <li>Email
-                sergsmile29@gmail.com</li>
-            <li>Website
-                github.com/DrynkinSergey</li>
-            <li>Address
+            <li><p>Phone:</p>
+                <a href="tel:+380931225096">+38093 122 50 96</a></li>
+            <li><p>Email:</p>
+                <a href="mailto:">sergsmile29@gmail.com</a></li>
+            <li><p>Website:</p>
+                <a target='_blank' href="http://github.com/DrynkinSergey">github.com/DrynkinSergey</a></li>
+            <li><p>Address:</p>
                 Chernomorsk, Odessa, Ukraine</li>
         </ul>
         <ul>
-            <label htmlFor="ul">SKILLS</label>
+            <h3>SKILLS</h3>
             <hr/>
-
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Redux</li>
-            <li>HTML5</li>
-            <li>CSS</li>
-            <li>Git</li>
+            <li className='skill_item'>JavaScript</li>
+            <li className='skill_item'>React</li>
+            <li className='skill_item'>Redux</li>
+            <li className='skill_item'>HTML5</li>
+            <li className='skill_item'>CSS</li>
+            <li className='skill_item'>Git</li>
         </ul>
         <ul>
-            <label htmlFor="ul">SOCIALS</label>
+            <h3>SOCIALS</h3>
             <hr/>
 
-            <li>linkedin.com/in/DrynkinSergey</li>
-            <li>instagram.com/drynkinsergey</li>
-            <li>t.me/DrynkinSerg</li>
+            <li> <a target='_blank' href="http://linkedin.com/in/DrynkinSergey">linkedin.com/in/DrynkinSergey</a></li>
+            <li> <a target='_blank' href="http://instagram.com/drynkinsergey">instagram.com/drynkinsergey</a></li>
+            <li> <a target='_blank' href="http://t.me/DrynkinSerg">t.me/DrynkinSerg</a></li>
         </ul>
     </section>
 );

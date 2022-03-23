@@ -1,0 +1,66 @@
+
+@media (max-width: 1920px) {
+}
+
+@media (max-width: 1199px) {
+
+  .projects{
+    padding-left: 40px;
+    width: 70%;
+  }
+
+  .me{
+    h1{
+      font-size: 2rem;
+    }
+    h2{
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+
+}
+
+
+/* sm-размер (<=768px) */
+@media (max-width: 767px) {
+  /* CSS для ширины от 576px до 767px */
+  .about{
+    ul{
+      padding: 0;
+    }
+    h2,li,a{
+      font-size: 1rem;
+    }
+    .intro{
+      display: none;
+    }
+  }
+}
+
+
+@media (max-width: 575px) {
+
+  .about{
+  border-left: 5px solid white;
+  }
+  .photo{
+
+    border-left: 5px solid black !important;
+  }
+  .me{
+
+    h1,h2{
+      font-size: 1.5rem;
+    }
+  }
+  .projects{
+    padding: 0 10px ;
+  }
+  .content.d-flex{
+    justify-content: flex-start;
+  }
+  /* CSS для ширины до 575px (включительно) */
+}

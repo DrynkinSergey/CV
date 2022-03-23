@@ -1,8 +1,22 @@
 //var
-
+*{
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color:inherit;
+  word-wrap: anywhere;
+  &:hover{
+    color: black;
+  }
+}
 body{
-  background: black;
-  padding: 0 15px;
+
+  padding: 30px 0;
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+
 }
 .container{
   max-width: 1000px;
@@ -12,6 +26,7 @@ body{
   justify-content: space-between;
 }
 .appWrapper{
+  box-shadow: 0px 10px 13px -7px #000000, 4px 5px 14px 15px rgba(0,0,0,0.19);
   max-width: 1170px;
   margin: 0 auto;
   background: white;
@@ -19,21 +34,19 @@ body{
 }
 
 header{
-  padding-left: 20px;
   .photo{
-
-    margin-left: 20px;
-    background:red !important;
-    min-width: 320px;
+    background: linear-gradient(180deg, rgba(34,172,195,1) 0%, rgba(253,45,45,1) 100%);
+    border-left: 20px solid black;
+    width: 30%;
     .img{
-      max-width: 320px;
+      width: 90%;
       display: block;
       margin: auto auto;
       transform: translateY(50px);
     }
   }
   .me{
-    width: calc(100% - 320px);
+    width: 70%;
   }
   color: red;
   background: black;

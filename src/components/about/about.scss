@@ -1,22 +1,45 @@
 @import "./src/variables";
 .about{
-  background: red;
-  height: 1000px;
-  margin-left: 40px;
-  max-width: 300px;
+  background: linear-gradient(0deg, rgba(34,172,195,1) 0%, rgba(253,45,45,1) 100%);
+  border-left: 20px solid white;
+  width: 30%;
   padding: 50px 10px 50px 10px;
   color: $aboutColor;
   p{
     font-weight: bold;
   }
+  hr{
+    margin: 20px 0;
+  }
 
   ul{
-    padding: 0;
+    padding:0 15px;
   }
   li{
     padding: 0;
     list-style: none;
-    margin-bottom: 15px;
-
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    p{
+      margin: 0;
+    }
+    &.skill_item{
+      padding-left: 2%;
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
   }
+  h2{
+    text-align: center;
+  }
+  .intro{
+    line-height: 1.8rem;
+    padding: 40px 0;
+    font-size: 1.3rem;
+  }
+  h3{
+    text-align: center;
+    font-size: 1.3rem;
+  }
+
 }
