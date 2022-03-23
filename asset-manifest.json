@@ -1,14 +1,28 @@
 {
   "files": {
-    "main.css": "/cv/static/css/main.a2e61090.css",
-    "main.js": "/cv/static/js/main.5af1e9db.js",
+    "main.css": "/cv/static/css/main.f892f0f2.css",
+    "main.js": "/cv/static/js/main.ca38c456.js",
     "static/media/i.png": "/cv/static/media/i.1c94614eb277feef4952.png",
+    "static/media/hobby.svg": "/cv/static/media/hobby.327fb6b6dc9c8d9671f378c2744ed797.svg",
+    "static/media/telegram.svg": "/cv/static/media/telegram.eb01bd271bc4548149184c3eedc76abf.svg",
+    "static/media/code.svg": "/cv/static/media/code.4a22ac2214e6a0c8e67a54e56a57577e.svg",
+    "static/media/react.svg": "/cv/static/media/react.ee5e4a8fbec192b9a6d421a57ddd2c2b.svg",
+    "static/media/inst.svg": "/cv/static/media/inst.8061387490544ba594f16fcd4006d710.svg",
+    "static/media/redux.svg": "/cv/static/media/redux.9dd5b17e93efa9410e2b996822cd4ae0.svg",
+    "static/media/lin.svg": "/cv/static/media/lin.89c537fb812d09486765528d5c269e15.svg",
+    "static/media/github.svg": "/cv/static/media/github.837803143c3c56e33d7661b5f6e41485.svg",
+    "static/media/html.svg": "/cv/static/media/html.7ba7fad9a254e9346495a6fffc913423.svg",
+    "static/media/edu.svg": "/cv/static/media/edu.b8ca630897dbd464664f65b9c6d242eb.svg",
+    "static/media/link.svg": "/cv/static/media/link.e550834419adcabbfc48156f698820f6.svg",
     "index.html": "/cv/index.html",
-    "main.a2e61090.css.map": "/cv/static/css/main.a2e61090.css.map",
-    "main.5af1e9db.js.map": "/cv/static/js/main.5af1e9db.js.map"
+    "static/media/js.svg": "/cv/static/media/js.38e05d3d3eaf86451aa6c8661bb33c7e.svg",
+    "static/media/git.svg": "/cv/static/media/git.1f7550b5a78f50d09a4c57040e7907ac.svg",
+    "static/media/css.svg": "/cv/static/media/css.1422a6715ec35fe6db206f409bc04bd5.svg",
+    "main.f892f0f2.css.map": "/cv/static/css/main.f892f0f2.css.map",
+    "main.ca38c456.js.map": "/cv/static/js/main.ca38c456.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2e61090.css",
-    "static/js/main.5af1e9db.js"
+    "static/css/main.f892f0f2.css",
+    "static/js/main.ca38c456.js"
   ]
 }
