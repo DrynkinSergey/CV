@@ -1,43 +1,59 @@
 @import "./src/variables";
-.about{
-  background: linear-gradient(0deg, rgba(34,172,195,1) 0%, rgba(253,45,45,1) 100%);
+
+.about {
+  .about_icon{
+    width: 25px;
+    margin-right:  10px;
+    transform: translateY(5px);
+  }
+
+  background: linear-gradient(0deg, rgba(34, 172, 195, 1) 0%, rgba(253, 45, 45, 1) 100%);
   border-left: 20px solid white;
   width: 30%;
   padding: 50px 10px 50px 10px;
   color: $aboutColor;
-  p{
+
+  p {
     font-weight: bold;
   }
-  hr{
+
+  hr {
     margin: 20px 0;
   }
 
-  ul{
-    padding:0 15px;
+  ul {
+    padding: 0 15px;
   }
-  li{
+
+  li {
     padding: 0;
     list-style: none;
     margin-bottom: 10px;
     font-size: 1.2rem;
-    p{
+
+    p {
       margin: 0;
     }
-    &.skill_item{
+
+    &.skill_item {
       padding-left: 2%;
       font-size: 1.2rem;
       font-weight: 700;
+
     }
   }
-  h2{
+
+  h2 {
     text-align: center;
   }
-  .intro{
+
+  .intro {
     line-height: 1.8rem;
     padding: 40px 0;
     font-size: 1.3rem;
   }
-  h3{
+
+  h3 {
     text-align: center;
     font-size: 1.3rem;
   }

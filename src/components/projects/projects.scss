@@ -1,13 +1,76 @@
-.projects{
+.projects {
   padding-left: 50px;
   background-color: white;
   width: 70%;
-  .hobbies{
+span{
+  font-weight: bold;
+}
+  a {
+    text-decoration: none;
+    background:
+            linear-gradient(
+                            to right,
+                            rgba(100, 200, 200, 1),
+                            rgba(100, 200, 200, 1)
+            ),
+            linear-gradient(
+                            to right,
+                            rgba(255, 0, 0, 1),
+                            rgba(255, 0, 180, 1),
+                            rgba(0, 100, 200, 1)
+            );
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+    padding: 5px 0;
+    &:hover{
+      background-size: 0 3px, 100% 3px;
+    }
+  }
+.edu{
+  color: red;
+  font-size: 1.5rem;
+
+}
+img{
+  &.svg{
+    width: 25px;
+    margin: 0 5px;
+  }
+  &.code{
+    width: 40px;
+    margin: 0 10px;
+  }
+}
+
+  h2 {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  h3 {
+    color: red;
+  }
+  .education{
+    justify-content: space-between;
+    span{
+      width: 40%;
+    }
+    p{
+      width: 70%;
+      margin-top: 0;
+    }
+  }
+
+  .hobbies {
+    padding-bottom: 50px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     width: 80%;
-    img{
+
+    img {
       width: 20%;
       margin-right: 20px;
     }

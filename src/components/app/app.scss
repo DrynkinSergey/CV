@@ -1,67 +1,78 @@
 //var
-*{
+* {
   box-sizing: border-box;
 }
-a{
+
+a {
   text-decoration: none;
-  color:inherit;
+  color: inherit;
   word-wrap: anywhere;
-  &:hover{
+
+  &:hover {
     color: black;
   }
 }
-body{
 
+body {
   padding: 30px 0;
   background-color: #D9AFD9;
   background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
-
-
 }
-.container{
+
+.container {
   max-width: 1000px;
 }
+
 .d-flex {
   display: flex;
   justify-content: space-between;
 }
-.appWrapper{
-  box-shadow: 0px 10px 13px -7px #000000, 4px 5px 14px 15px rgba(0,0,0,0.19);
+
+.appWrapper {
+  box-shadow: 0px 10px 13px -7px #000000, 4px 5px 14px 15px rgba(0, 0, 0, 0.19);
   max-width: 1170px;
   margin: 0 auto;
   background: white;
   position: relative;
 }
 
-header{
-  .photo{
-    background: linear-gradient(180deg, rgba(34,172,195,1) 0%, rgba(253,45,45,1) 100%);
+header {
+  .photo {
+    background: linear-gradient(180deg, rgba(34, 172, 195, 1) 0%, rgba(253, 45, 45, 1) 100%);
     border-left: 20px solid black;
     width: 30%;
-    .img{
+
+    .img {
       width: 90%;
       display: block;
       margin: auto auto;
       transform: translateY(50px);
     }
   }
-  .me{
+
+  .me {
     width: 70%;
+    padding: 40px 0;
   }
+
   color: red;
   background: black;
-  h1,h2{
-  text-align:center;
+
+  h1, h2 {
+    text-align: center;
     margin: 0 auto;
     text-transform: uppercase;
-    span{
-      color:white;
+
+    span {
+      color: white;
     }
   }
-  h1{
+
+  h1 {
     font-size: 4rem;
   }
-  h2{
+
+  h2 {
     font-size: 2.5rem;
     margin: 0;
   }
