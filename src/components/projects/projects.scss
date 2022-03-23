@@ -2,6 +2,64 @@
   padding-left: 50px;
   background-color: white;
   width: 70%;
+  .last{
+    position: relative;
+    &:before{
+      position: absolute;
+      content:'';
+      display: block;
+      width: 25px;
+      height: 25px;
+      left: -14px;
+      bottom: -8px;
+      background-color: red;
+      border-radius: 50%;
+    }
+    &:after{
+      position: absolute;
+      content:'';
+      display: block;
+      width: 15px;
+      height: 15px;
+      left: -9px;
+      bottom: -3px;
+      background-color: white;
+      border-radius: 50%;
+    }
+  }
+
+  &_item{
+    border-left: red 3px solid;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    h3{
+      margin: 0;
+      position: relative;
+      &:before{
+        position: absolute;
+        content:'';
+        display: block;
+        width: 25px;
+        height: 25px;
+        left: -54px;
+        background-color: red;
+        border-radius: 50%;
+      }
+      &:after{
+        position: absolute;
+        content:'';
+        display: block;
+        width: 15px;
+        height: 15px;
+        left: -49px;
+        top: 5px;
+        background-color: white;
+        border-radius: 50%;
+      }
+    }
+
+
+  }
 span{
   font-weight: bold;
 }

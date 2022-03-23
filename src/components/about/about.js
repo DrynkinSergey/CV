@@ -12,7 +12,7 @@ import lin from '../../img/icons/lin.svg'
 import telegram from '../../img/icons/telegram.svg'
 
 const About = (props) => (
-    <section className='about'>
+    <section className='about slideDown'>
         <h2>What's Up!</h2>
         <p className='intro'>Hello i'm ReactJs developer! I'm want to work on job at my dream and now i selfstudy for that.
             I use ReactJS, Redux, JavaScript, SCSS in my projects</p>
