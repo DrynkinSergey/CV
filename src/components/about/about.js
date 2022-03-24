@@ -13,19 +13,19 @@ import telegram from '../../img/icons/telegram.svg'
 
 const About = (props) => (
     <section className='about slideDown'>
-        <h2>What's Up!</h2>
+        <h2 className='intro'>What's Up!</h2>
         <p className='intro'>Hello i'm ReactJs developer! I'm want to work on job at my dream and now i selfstudy for that.
             I use ReactJS, Redux, JavaScript, SCSS in my projects</p>
         <ul>
             <h3>INFO</h3>
             <hr/>
             <li><p>Phone:</p>
-                <a href="tel:+380931225096">+38093 122 50 96</a></li>
+                <a href="tel:+380931225096">+380931225096</a></li>
             <li><p>Email:</p>
                 <a href="mailto:">sergsmile29@gmail.com</a></li>
             <li><p>Website:</p>
                 <a target='_blank' href="http://github.com/DrynkinSergey">
-                    <img className='about_icon' src={github} alt=""/>github.com/DrynkinSergey</a></li>
+                    <img className='about_icon' src={github} alt=""/></a></li>
             <li><p>Address:</p>
                 Chernomorsk, Odessa, Ukraine</li>
         </ul>
@@ -39,13 +39,13 @@ const About = (props) => (
             <li className='skill_item'><img className='about_icon' src={css} alt=""/>CSS</li>
             <li className='skill_item'><img className='about_icon' src={git} alt=""/>Git</li>
         </ul>
-        <ul>
+        <ul >
             <h3>SOCIALS</h3>
             <hr/>
 
-            <li> <a target='_blank' href="http://linkedin.com/in/DrynkinSergey"><img className='about_icon' src={lin} alt=""/>linkedin.com/in/DrynkinSergey</a></li>
-            <li> <a target='_blank' href="http://instagram.com/drynkinsergey"><img className='about_icon' src={inst} alt=""/>instagram.com/drynkinsergey</a></li>
-            <li> <a target='_blank' href="http://t.me/DrynkinSerg"><img className='about_icon' src={telegram} alt=""/>t.me/DrynkinSerg</a></li>
+            <li className='social'> <a target='_blank' href="http://linkedin.com/in/DrynkinSergey"><img  className='about_icon' src={lin} alt=""/><span>linkedin.com/in/DrynkinSergey</span></a></li>
+            <li className='social'> <a target='_blank' href="http://instagram.com/drynkinsergey"><img className='about_icon' src={inst} alt=""/><span>instagram.com/drynkinsergey</span></a></li>
+            <li className='social'> <a target='_blank' href="http://t.me/DrynkinSerg"><img className='about_icon' src={telegram} alt=""/><span>t.me/DrynkinSerg</span></a></li>
         </ul>
     </section>
 );

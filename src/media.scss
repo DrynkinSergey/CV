@@ -11,10 +11,10 @@
 
   .me{
     h1{
-      font-size: 2rem;
+      font-size: 3rem;
     }
     h2{
-      font-size: 1.5rem;
+      font-size: 2.5rem;
     }
   }
 }
@@ -28,6 +28,7 @@
 @media (max-width: 767px) {
   /* CSS для ширины от 576px до 767px */
   .about{
+    padding: 5px 3px;
     ul{
       padding: 0;
     }
@@ -38,11 +39,31 @@
       display: none;
     }
   }
+  .projects{
+    padding: 0 15px;
+  }
+  body{
+    padding: 0;
+  }
 }
 
 
 @media (max-width: 575px) {
-
+  .about_icon{
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 40%;
+  }
+  .skill_item{
+    text-align: center;
+  }
+  .social{
+    display: inline;
+    margin-left: 10px;
+  }
+  li span{
+    display: none;
+  }
   .about{
   border-left: 5px solid white;
   }
@@ -57,10 +78,31 @@
     }
   }
   .projects{
-    padding: 0 10px ;
+    padding: 0 3px 0 15px;
+    &_item{
+      padding-left: 20px;
+      h3{
+        &::before{
+          left: -34px;
+        }
+        &::after{
+          left:-29px;
+        }
+      }
+    }
+    .education{
+      span{
+        padding: 0 10px;
+        text-align: center;
+      }
+      p{
+        width: 100%;
+      }
+    }
   }
   .content.d-flex{
     justify-content: flex-start;
   }
-  /* CSS для ширины до 575px (включительно) */
+
+
 }
